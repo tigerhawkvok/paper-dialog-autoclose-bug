@@ -21,12 +21,14 @@
     <link rel="import" href="bower_components/paper-dialog-scrollable/paper-dialog-scrollable.html"/>
     <link rel="import" href="bower_components/paper-button/paper-button.html"/>
     <script>
+      $(function() {
       $("#open-button").click(function(){
         $("#sample-dialog").get(0).open();
       });
       $("#has-event").click(function(){
       console.log("This shouldn't have closed the paper-dialog!");
       return false; // It may be this line
+      });
       });
     </script>
   </head>
