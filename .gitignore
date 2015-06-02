@@ -41,3 +41,21 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+# Temp Files from emacs
+\#*
+\#*\#
+.\#*
+*.*~
+
+CONFIG.php
+errors/
+
+#Extra latex stuff
+*.C
+*.K
+*.M
+*.out
+*.aux
+
+bower_components/bootstrap/node_modules/
+node_modules/
